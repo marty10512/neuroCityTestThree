@@ -20,9 +20,9 @@ class App extends React.Component {
         <h1 className='title'>users</h1>
         <ul className='list'>
           {
-            this.state.users.length == 0 ? '' : this.state.users.map(user => (
+            this.state.users.length === 0 ? '' : this.state.users.map(user => (
                 <li className='item' key={user.id}>
-                  <img className='image' src={user.avatar}/>
+                  <img className='image' alt='User'src={user.avatar}/>
                   <p className='email'>{user.email}</p>
                   <p className='name'>{user.first_name} {user.last_name}</p>
                 </li>
