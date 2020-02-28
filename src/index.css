@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e2e2e2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.list{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image{
+  border-radius: 50%;
+}
+
+.email{
+  color: #0078fb;
+  font-weight: 500;
+}
+
+.name {
+  font-weight: 500;
 }
